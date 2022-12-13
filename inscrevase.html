@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscreva-se</title>
+    <link rel="shortcut icon" href="imagemlogo/logoprincesa58.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/inscrevase.css">
+</head>
+<body>
+    <h1>Faça a sua inscrição</h1>
+    <form action="chat.php" method="post" autocomplete="on">
+           
+            <fieldset>
+                <legend>Dados pessoais</legend>
+        
+                <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" required maxlength="30" autocomplete="name">
+                </p>
+           
+                <p>
+                <label for="isobre">Sobrenome: </label>
+                <input type="text" name="sobre" id="isobre" required maxlength="30" autocomplete="isobre">
+                </p>
+        
+                <p>
+                <label for="imail">E-mail: </label>
+                <input type="email" name="mail" id="imail" required placeholder="abcd@abc.com">
+                </p>
+        
+                <p>
+                <label for="isen">Digite uma senha: </label>
+                <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="8" placeholder="min 8 letras" autocomplete="current-password">
+                </p>
+        
+                <p>
+                <label for="isen">Repita a senha: </label>
+                <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="8" placeholder="min 8 letras" autocomplete="current-password">
+                </p>
+        
+                <p>
+                <label for="itel"> Telefone: </label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" required placeholder="(xx)xxxxx-xxxx">
+                </p>
+                
+                <p>Sexo</p>
+                <input type="radio" name="sexo" id="isxmas" checked value="M"> <label for="isxmas">Masculino</label>
+                <input type="radio" name="sexo" id="isxfem" value="F"> <label for="isxfem">Feminino</label>
+                
+                <p>
+                <label for="inivel">Seu nivel de inglês: </label>
+                <input type="range" name="nivel" id="inivel" min="1" max="10" value="2">
+                </p>
+                
+                <p>Qual seu objetivo ao aprender inglês</p>
+                <input type="checkbox" name="ane" id="iane"> <label for="irne">Arrumar novo emprego</label>
+                <input type="checkbox" name="vfe" id="ivfe"> <label for="ivfe">Ver filmes e séries em inglês</label>
+                <input type="checkbox" name="fi" id="ifi"> <label for="ifi">Fazer intercambio</label>
+                <input type="checkbox" name="apa" id="iapa"> <label for="iapa">Apenas aprender</label>
+        
+            </fieldset>
+            <p class="enviar">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            </p>
+    </form>
+
+</body>
+</html>

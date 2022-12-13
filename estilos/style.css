@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/*font-family: 'Paytone One', sans-serif;
+font-family: 'Yesteryear', cursive;
+font-family: 'Bree Serif', serif;*/
+
+:root{
+    --cor0: #0907EB;
+    --cor1: #0744F5;
+    --cor2: #0475DE;
+    --cor3: #07C1F5;
+    --cor4: #07EBE0;   
+    --fonte-padrao: 'Paytone One', sans-serif;
+    --fonte-cursiva: 'Yesteryear', cursive;
+    --fonte-seria: 'Bree Serif', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}   
+
+nav {
+    width: 100%;
+    background-color: transparent;
+    font-size: 1.2em;
+    font-family: var(--fonte-padrao);
+    overflow: hidden;
+    position: fixed;
+}
+
+nav > img {
+    margin-left: 3em;
+}
+
+nav > ul {
+    float: right;
+    margin: 1.5em;
+}
+
+nav > ul > li {
+    display: inline;
+}
+
+nav > ul > li > a {
+    color: white;
+    margin: 20px 30px;
+}
+
+nav > ul > li > a:hover {
+    color: rgba(255, 0, 0, 0.658);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.445);
+}
+
+div.principal{
+    background-image: linear-gradient(to left, blue, #0744F5);
+    color: white;
+    font-family: var(--fonte-seria);
+    font-size: 1.5em;
+    padding: 6.5em 5em;
+}
+
+div.principal > h1 {
+    color: var(--cor4);
+}
+
+div.let {
+    font-family: var(--fonte-cursiva);
+    font-size: 2.7em;
+    padding: 0.5em;
+    color: yellow;
+}
+
+div.meio {
+    text-align: center;
+    background-color: var(--cor2);
+    color: white;
+    font-family: var(--fonte-seria);
+    font-size: 1.3em;
+    padding: 3.9em;
+}
+
+div.meio > h1 {
+    color: var(--cor4);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.514);
+}
+
+div.fotoestudante {
+    height: 75vh;
+    background-image: url('../imagens/moçaestudanto.jpg');
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.mensagem {
+    float: right;
+    width: 400px;
+    margin: 27px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 10px;
+    font-family: var(--fonte-padrao);
+    line-height: 2em;
+    background-color: rgba(255, 0, 0, 0.295);
+}
+
+div.ultima {
+    background-image: linear-gradient(to right, blue, #0744F5);
+    text-align: center;
+    background-color: var(--cor2);
+    color: white;
+    font-family: var(--fonte-seria);
+    font-size: 1.3em;
+    padding: 3.9em;
+}
+
+div.ultima > h1 {
+    color: rgba(255, 0, 0, 0.795);
+    text-shadow: 1px 1px 1px black;
+}
+
+div.ultima > .ultimop {
+    color: yellow;
+}
+
+div.ultima::first-letter {
+    font-size: 3.1em;
+}
+
+footer {
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+}
+
+footer > p > a {
+    color: white;
+}
