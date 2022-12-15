@@ -110,6 +110,10 @@ div.mensagem {
     background-color: rgba(255, 0, 0, 0.295);
 }
 
+div.mensagem2 {
+    display: none;
+}
+
 div.ultima {
     background-image: linear-gradient(to right, blue, #0744F5);
     text-align: center;
@@ -117,7 +121,7 @@ div.ultima {
     color: white;
     font-family: var(--fonte-seria);
     font-size: 1.3em;
-    padding: 3.9em;
+    padding: 1em;
 }
 
 div.ultima > h1 {

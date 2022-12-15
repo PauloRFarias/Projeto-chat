@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    div.tres {
+        display: inline;
+        margin-bottom: 10px;
+    }
+
+    div.primeiro, .segundo, .terceiro {
+        width: auto;
+        margin: 10px 10px;
+    }
+
+    
+}

@@ -6,8 +6,25 @@
         padding-top: 200px;
         margin: 0px;
     }
-}
 
-@media screen and (min-width: 769px) and (max-width: 1000px) {
-    
+    div.let {
+        text-align: center;
+    }
+
+    div.meio {
+         padding: 15px;
+    }
+
+    div.mensagem {
+        display: none;
+    }
+
+    div.mensagem2 {
+        display: block;
+        width: auto;
+        padding: 20px;
+        font-size: 1em;
+        font-family: var(--fonte-padrao);
+        line-height: 2em;
+    }
 }
