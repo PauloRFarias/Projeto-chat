@@ -1,6 +1,16 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 768px) {   
+    nav {
+        display: block;
+        position: absolute;
+        text-align: center;
+    }
+
+    nav > img {
+       margin: auto;
+    }
+
     div.principal {
         padding: 10px;
         padding-top: 200px;

@@ -30,7 +30,6 @@ nav {
     background-color: transparent;
     font-size: 1.2em;
     font-family: var(--fonte-padrao);
-    overflow: hidden;
     position: fixed;
 }
 
