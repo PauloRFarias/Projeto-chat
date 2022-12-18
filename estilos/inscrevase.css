@@ -20,17 +20,23 @@ font-family: 'Bree Serif', serif;*/
 }
 
 * {
-    border: 0px;
+    margin: 0px;
     padding: 0px;
     font-family: var(--fonte-seria);
+    text-align: 10px;
 }
     
-h1 {
+.h1 {
     text-align: center;
-    font-family: var(--fonte-cursiva);
     background-image: linear-gradient(to left, red , white, blue);
-    font-size: 60px;
-    margin: 0px;
+}
+
+div.insc {
+    max-width: 415px;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    text-align: center;  
+    background-color: #07C1F5;
 }
 
 legend {
@@ -41,9 +47,11 @@ fieldset {
     width: 400px;
     border: 2px solid var(--cor0);
     margin: auto;
+    font-size: 1.1em;
     border-radius: 10px;
     padding: 10px;
     padding-top: 0px;
+    line-height: 30px;
 }
 
 p.enviar {
