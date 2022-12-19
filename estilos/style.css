@@ -23,127 +23,131 @@ font-family: 'Bree Serif', serif;*/
     margin: 0;
     padding: 0;
     text-decoration: none;
-}   
+} 
 
-nav {
-    width: 100%;
-    background-color: transparent;
-    font-size: 1.2em;
-    font-family: var(--fonte-padrao);
-    position: fixed;
+a {
+    color: green;
 }
 
-nav > img {
-    margin-left: 3em;
+body {
+    max-width: 800px;
+    margin: auto;
 }
 
-nav > ul {
+.inicio {
+    background-color: rgba(128, 128, 128, 0.521);
+}
+
+.nome {
+    padding: 32px 30px;
+    display: inline-block;
+    font-family: var(--fonte-seria);
+}
+
+.listas {
     float: right;
-    margin: 1.5em;
+    padding: 50px;
 }
 
-nav > ul > li {
-    display: inline;
+.listas > abbr {
+    margin: 0 20px;
 }
 
-nav > ul > li > a {
-    color: white;
-    margin: 20px 30px;
+img {
+    width: 20px;
 }
 
-nav > ul > li > a:hover {
-    color: rgba(255, 0, 0, 0.658);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.445);
-}
-
-div.principal{
-    background-image: linear-gradient(to left, blue, #0744F5);
-    color: white;
-    font-family: var(--fonte-seria);
-    font-size: 1.5em;
-    padding: 6.5em 5em;
-}
-
-div.principal > h1 {
-    color: var(--cor4);
-}
-
-div.let {
-    font-family: var(--fonte-cursiva);
-    font-size: 2.7em;
-    padding: 0.5em;
-    color: yellow;
-}
-
-div.meio {
-    text-align: center;
-    background-color: var(--cor2);
-    color: white;
-    font-family: var(--fonte-seria);
-    font-size: 1.3em;
-    padding: 3.9em;
-}
-
-div.meio > h1 {
-    color: var(--cor4);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.514);
-}
-
-div.fotoestudante {
-    height: 75vh;
-    background-image: url('../imagens/moçaestudanto.jpg');
-    background-position: center left;
+.imagem {
+    margin: auto;
+    background-image: url(../imagens/foto1.jpg);
+    width: 400px;
+    height: 400px;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: inline-block;
 }
 
-div.mensagem {
-    float: right;
+.informar {
+    background-color: rgba(0, 0, 0, 0.13);
+    font-family: var(--fonte-padrao); 
     width: 400px;
-    margin: 27px;
-    padding: 10px;
-    font-size: 1em;
-    border-radius: 10px;
-    font-family: var(--fonte-padrao);
-    line-height: 2em;
-    background-color: rgba(255, 0, 0, 0.295);
+    height: 400px;
+    float: right;  
 }
 
-div.mensagem2 {
-    display: none;
+.informar > h1 {
+    padding-left: 10px;
 }
 
-div.ultima {
-    background-image: linear-gradient(to right, blue, #0744F5);
-    text-align: center;
-    background-color: var(--cor2);
-    color: white;
+.informar > ul > li {
+    margin-left: 40px;
+}
+
+.sobremim {
+    background-color: rgba(128, 128, 128, 0.041);
     font-family: var(--fonte-seria);
-    font-size: 1.3em;
-    padding: 1em;
+    text-align: justify;
+    padding: 20px 60px;
 }
 
-div.ultima > h1 {
-    color: rgba(255, 0, 0, 0.795);
-    text-shadow: 1px 1px 1px black;
+.sobremim > h1 {
+    padding: 10px;  
 }
 
-div.ultima > .ultimop {
-    color: yellow;
+@media (max-width: 815px) {
+    .inicio {
+        display: grid;
+        height: 157px;
+    }
+    
+    .listas {
+        float: left;
+        padding: 0px 30px;
+        margin: 0px;
+    }
+
+    .imagem {
+        width: 100vw;
+        margin-bottom: -4px;
+    }
+
+    .informar {
+        width: 100%;
+        height: 360px;
+        display: inline;
+    }
+
+    .sobremim {
+        display: inline-block;
+    }
 }
 
-div.ultima::first-letter {
-    font-size: 3.1em;
-}
+@media (max-width: 667px) {
+    .inicio {
+        height: 200px;
+    }
+    
+    .listas {
+        float: left;
+        padding: 0px 30px;
+        margin: 0px;
+    }
 
-footer {
-    padding: 5px;
-    text-align: center;
-    background-color: black;
-    color: white;
-    font-size: 1.1em;
-}
+    .imagem {
+        width: 100%;
+        margin-bottom: -4px;
+    }
 
-footer > p > a {
-    color: white;
+    .informar {
+        width: 100%;
+        height: auto;
+        display: inline;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .sobremim {
+        display: inline-block;
+    } 
 }
