@@ -50,13 +50,30 @@ nav > ul > li {
 nav > ul > li > a {
     padding: 5px 20px;
     border-radius: 3px;  
-    color: var(--cor0);
+    color: white;
 }
-
 
 nav > ul > li > a:hover {
     color: black;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.575);
 }
 
+div.principal {
+    background-color: var(--cor0);
+    font-family: var(--fonte-seria);
+    font-size: 1.4em;
+    padding: 130px 0px 20px 70px;  
+    color: rgba(255, 255, 255, 0.925);
+}
+
+div.let > a {
+    color: yellow;
+    font-family: var(--fonte-cursiva);
+    font-size: 3.6em;
+    padding-left: 60px;
+}
+
+div.let > a:hover {
+    color: yellowgreen;
+}
 
