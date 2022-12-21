@@ -54,9 +54,9 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover {
-    color: black;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.575);
-}
+    color: yellow;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.705);
+}    
 
 div.principal {
     background-color: var(--cor0);
@@ -71,9 +71,31 @@ div.let > a {
     font-family: var(--fonte-cursiva);
     font-size: 3.6em;
     padding-left: 60px;
+    text-shadow: 1px 1px 1px black;
 }
 
 div.let > a:hover {
-    color: yellowgreen;
+    color: rgba(255, 255, 0, 0.699);
 }
 
+div.meio {
+    background-color: var(--cor3);
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    font-size: 1.4em;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}   
+
+div.meio > h1 {
+    color: #0907EB;
+    text-decoration: underline black 5px;
+}
+
+div.fotoestudante {
+    height: 95vh;
+    background-image: url(../imagens/moçaestudanto.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
