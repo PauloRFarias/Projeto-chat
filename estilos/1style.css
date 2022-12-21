@@ -13,7 +13,15 @@
     div.principal {
         padding: 20px;
         text-align: justify;
-        
+    }
+
+    div.mensagem {
+        max-width: 450px;
+        margin: 400px 15px 0px 15px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.267);
     }
 }
 
@@ -32,7 +40,15 @@
     div.meio {
         padding-right: 10px;
         padding-left: 10px;
-        
+    }
+
+    div.mensagem {
+        max-width: 450px;
+        margin: 400px 15px 0px 15px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.267);
     }
 }
 
