@@ -1,8 +1,19 @@
 @charset "UTF-8";
 
+:root{
+    --cor0: #0907EB;
+    --cor1: #0744F5;
+    --cor2: #0475DE;
+    --cor3: #07C1F5;
+    --cor4: #07EBE0;   
+    --fonte-padrao: 'Paytone One', sans-serif;
+    --fonte-cursiva: 'Yesteryear', cursive;
+    --fonte-seria: 'Bree Serif', serif;
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) { /*configuração para tablet */
     body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, #0907EB, #0475DE);
     }
     
     section#login {
@@ -24,7 +35,7 @@
 
 @media screen and (min-width: 992px) { /*configuraçôes para desktop*/
     body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, #0907EB, #0475DE);
     }
     
     section#login {
